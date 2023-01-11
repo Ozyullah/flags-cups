@@ -2,6 +2,9 @@ body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
+
+    width: 75%;
+    margin: auto;
 }
 h1{
     font-size: 50px;
@@ -12,18 +15,17 @@ header main{
 }
 /*---------header design--------------*/
 .root-top{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 .root-sector{
-    width: 1021px;
+    /* width: 1021px; */
     height: 550px;
     background-color: blueviolet;
     border-radius: 10px;
     color: white;
-    padding: 60px;width: 1021px;
-    height: 550px;
-    background-color: blueviolet;
+    /* padding: 60px;width: 1021px; */
+    /* height: 550px; */
     border-radius: 10px;
     color: white;
     padding: 60px;
@@ -46,18 +48,20 @@ header main{
 /*-------------------button-----------------*/
 main{
     display: 100%;
+    position: relative;
 }
 section{
     display: grid;
     justify-content: center;
-    width: 1021px;
-    height: 550px;
+    /* width: 1021px;
+    height: 550px; */
 }
 .mini-container{
     width: 312px;
     height: 312px;
     background-color: blueviolet;
     margin-right: 15px;
+    border-radius: 10px;
 }
 .button-unit{
     padding: 15px;
@@ -83,10 +87,20 @@ section{
 .play-shedul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
 }
 .container{
     border: 0.5px solid rgba(190, 184, 184, 0.432);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    margin-bottom: 80px;
+}
+
+
+.container h3{
+    font-size: medium;
 }
 .items{
     margin: 10px;
@@ -94,15 +108,18 @@ section{
 
 
 .footer-design{
-    position: fixed;
-    height: 20%;
+    position: absolute;
+    height: 15%;
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: 10px;
     background-color: blue;
     color: white;
     text-align: center;
+    
 }
 nav a{
     margin-left: 5px;
+    color: white;
 }
