@@ -1,3 +1,3 @@
 # flags-cup
 
-https://ozyullah.github.io/flags-cup/flug-cup.html
+https://ozyullah.github.io/flags-cup/
